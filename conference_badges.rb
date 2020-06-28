@@ -50,21 +50,9 @@ end
 #end
 #end
 
-#def printer(array)
-#  batch_badge_creator(array).each do |id|
-#    puts id
-#  end 
-#  
-#  assign_rooms(array).each do |id|
-#    puts id 
-#  end
-#end 
-def printer(attendees)
-    newvar= batch_badge_creator(attendees)
-    newvar.each do |name|
-      puts name
-        newarray= assign_rooms(attendees)
-        puts newarray
-    end
-  end
+def printer(array)
+  batch_badge_creator(array).each{ |id| puts id}
+  assign_rooms(array).each{ |id|  puts id }
+end 
+
 
