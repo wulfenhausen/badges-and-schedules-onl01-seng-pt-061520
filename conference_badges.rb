@@ -59,5 +59,12 @@ end
 #    puts id 
 #  end
 #end 
-
+def printer(attendees)
+    newvar= batch_badge_creator(attendees)
+    newvar.each do |name|
+      puts name
+        newarray= assign_rooms(attendees)
+        puts newarray
+    end
+  end
 
