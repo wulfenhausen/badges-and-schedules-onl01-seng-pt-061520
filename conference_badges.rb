@@ -41,14 +41,14 @@ end
  ## puts assign_rooms(attendees)
 ##
 
-def printer(attendees)
-  batch_badge_creator(attendees).each do |id|
-    puts id
-end
-assign_rooms(attendees).each do |id|
-  puts id
-end
-end
+#def printer(attendees)
+#  batch_badge_creator(attendees).each do |id|
+#    puts id
+#end
+#assign_rooms(attendees).each do |id|
+#  puts id
+#end
+#end
 
 #def printer(array)
 #  batch_badge_creator(array).each do |id|
